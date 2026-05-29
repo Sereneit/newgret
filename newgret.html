@@ -7,31 +7,35 @@
     <title>Greetings</title>
 
     <style>
-
-    :root {
-            color-scheme: dark; 
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        
-    html, body {
-            background-color: #252525;
+
+        :root {
+            color-scheme: dark;
+        }
+
+        html, body {
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: #252525 !important;
+            overflow: hidden !important;
             font-variant-caps: all-petite-caps;
-        }
-        
-        .widget {
-            padding: 5px 5px ;
-            color: #9B7D61;
             display: flex;
-            justify-content:center;
-            align-items:center;
-            flex-direction: column;
-            max-width: 95%;
-            margin: auto;
-            border: 3px solid #9B7D61;
-            border-radius: 5px;
-            box-shadow: 2px 2px 1px 0px #9B7D61;
+            justify-content: center;
+            align-items: center;
         }
 
-           
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #252525 !important;
+        }
         .greet{
             font-size: 3em;
         }
